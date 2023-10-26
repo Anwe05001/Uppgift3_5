@@ -41,5 +41,10 @@ class Program
         {
             Console.WriteLine(Första / Andra + " (Kan ej visa decimal tal)");
         }
+
+        else 
+        {
+            Console.WriteLine("Ogiltigt tal, testa igen");
+        }
     }
 }
